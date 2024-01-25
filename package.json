@@ -1,0 +1,21 @@
+{
+  "name": "dictionary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"ts-node ./src/index.ts",
+    "dev:model":"ts-node ./src/model/wordsModel.ts",
+    "build":"tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.2"
+  }
+}
